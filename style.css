@@ -14,6 +14,14 @@
     font-size: 12px;
 }
 
+.font-size-20 {
+    font-size: 20px;
+}
+
+.font-size-24 {
+    font-size: 24px
+}
+
 header {
     background-color: #2C3E50;
 }
@@ -24,4 +32,26 @@ header .container {
 
 header .container .row {
     height: 100%;
+}
+
+.green-background {
+    background-color: #1ABC9C;
+}
+
+.line {
+    height: 2px;
+    width: 15%;
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0 2%;
+}
+
+/*first-section*/
+#first-section {
+    height: 330px;
+}
+
+#first-section .container .row img {
+    width: 160px;
 }
