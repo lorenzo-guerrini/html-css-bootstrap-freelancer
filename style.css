@@ -1,9 +1,10 @@
-.uppercase {
-    text-transform: uppercase;
-}
 
 .white-text {
     color: white;
+}
+
+.black-text {
+    color: #2C3E50;
 }
 
 .bold {
@@ -12,6 +13,14 @@
 
 .font-size-12 {
     font-size: 12px;
+}
+
+.font-size-13 {
+    font-size: 13px;
+}
+
+.font-size-16 {
+    font-size: 16px;
 }
 
 .font-size-20 {
@@ -26,32 +35,52 @@ header {
     background-color: #2C3E50;
 }
 
-header .container {
-    height: 60px;
-}
-
-header .container .row {
-    height: 100%;
-}
-
 .green-background {
     background-color: #1ABC9C;
 }
 
-.line {
-    height: 2px;
-    width: 15%;
-    background-color: white;
+.star {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.star::before, .star::after{
+    content: "";
     display: inline-block;
+    width: 15%;
+    height: 2.5px;
+    line-height: 2.5px;
+    vertical-align: super;
     border-radius: 5px;
-    margin: 0 2%;
+    margin: 0 1px;
+    background-color: #2C3E50;
+}
+
+.star.white::before, .star.white::after {
+    background-color: white;
+}
+
+.star.black::before, .star.black::after {
+    background-color: #2C3E50;
 }
 
 /*first-section*/
-#first-section {
-    height: 330px;
-}
 
 #first-section .container .row img {
     width: 160px;
+}
+
+/*second-section*/
+
+#second-section .container .row .col img{
+    width: 100%;
+}
+
+/*third-section*/
+
+#third-section .container button {
+    border: 1px solid white;
+    color: white;
 }

@@ -4,60 +4,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelancer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col uppercase white-text bold font-size-12">
-                    Start Bootstrap
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand text-uppercase" href="#">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </nav>
     </header>
 
     <main>
         <section id="first-section" class="green-background">
-            <div class="container">
-                <div class="row row-cols-1 text-center white-text">
-                    <div class="col">
-                        <div class="mt-4">
-                            <img src="img/avatar.svg" alt="">
-                        </div>
-                    </div>
+            <div class="container pt-4 pb-3">
+                <div class="row text-center white-text">
+                    <div class="col-12">
 
-                    <div class="col bold font-size-24">
-                        <div class="mt-2">
-                            START BOOTSTRAP
-                        </div>
-                    </div>
+                        <img src="img/avatar.svg" alt="">
 
-                    <div class="col">
-                        <div class="mt-3 d-flex justify-content-center align-items-center">
-                            <div class="line"></div>
-                            <i class="fas fa-star font-size-20"></i>
-                            <div class="line"></div>
-                        </div>
-                        
-                    </div>
+                        <h1 class="mt-2 bold font-size-24 text-uppercase">
+                            Start Bootstrap
+                        </h1>
 
-                    <div class="col uppercase font-size-12">
-                        <div class="mt-3">
+                        <div class="star white font-size-20">
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                        <div class="mt-3 text-uppercase font-size-12">
                             Graphic Artist - Web Designer - Illustrator
                         </div>
-                    </div>
 
+                    </div>
                 </div>
             </div>
         </section>
+
+        <section id="second-section">
+            <div class="container my-4">
+                <div class="row mb-3">
+                    <div class="col-12 text-center black">
+                        <h2 class="bold font-size-16 text-uppercase">
+                            Portfolio
+                        </h2>
+
+                        <div class="star black font-size-20">
+                            <i class="fas fa-star"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row g-2 row-cols-1 row-cols-sm-2 row-cols-lg-3">
+                    <div class="col">
+                        <img class="rounded-3 mb-3" src="img/cabin.png" alt="">
+                    </div>
+
+                    <div class="col">
+                        <img class="rounded-3 mb-3" src="img/cake.png" alt="">
+                    </div>
+
+                    <div class="col">
+                        <img class="rounded-3 mb-3" src="img/circus.png" alt="">
+                    </div>
+
+                    <div class="col">
+                        <img class="rounded-3 mb-3" src="img/game.png" alt="">
+                    </div>
+
+                    <div class="col">
+                        <img class="rounded-3 mb-3" src="img/safe.png" alt="">
+                    </div>
+
+                    <div class="col">
+                        <img class="rounded-3 mb-3" src="img/submarine.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="third-section" class="green-background">
+            <div class="container white-text pt-4 pb-4">
+                <div class="row row-cols-1 font-size-13">
+                    <div class="col-12 ">
+                        <h2 class="bold font-size-16 text-center">
+                            ABOUT
+                        </h2>
+
+                        <div class="star white font-size-20">
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 px-3 font-size-13">
+                    <div class="col px-5">
+                        <div class="mt-2">
+                            Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
+                            complete source files including HTML, CSS, and JavaScript as well as optional LESS
+                            stylesheets for easy customization.
+                        </div>
+                    </div>
+                    <div class="col px-5">
+                        <div class="mt-2">
+                            Whether you're a student looking to showcase your work, a professional looking to attract
+                            clients, or a graphic artist looking to share your projects, this template is the perfect
+                            starting point!
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <button type="button" class="btn btn-sm font-size-13"><i class="fas fa-download"></i>
+                            Download</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 </html>
