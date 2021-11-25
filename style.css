@@ -1,4 +1,17 @@
+/*Colori background*/
+.dark-background {
+    background-color: #3A546D;
+}
 
+.darker-background {
+    background-color: #2C3E50;
+}
+
+.green-background {
+    background-color: #1ABC9C;
+}
+
+/*Colori testo*/
 .white-text {
     color: white;
 }
@@ -7,8 +20,13 @@
     color: #2C3E50;
 }
 
-.bold {
-    font-weight: bold;
+.green-text {
+    color: #1ABC9C;
+}
+
+/*Dimensioni testo*/
+.font-size-9 {
+    font-size: 9px;
 }
 
 .font-size-12 {
@@ -23,27 +41,17 @@
     font-size: 16px;
 }
 
-.font-size-20 {
-    font-size: 20px;
-}
-
 .font-size-24 {
     font-size: 24px
 }
 
-header {
-    background-color: #2C3E50;
-}
-
-.green-background {
-    background-color: #1ABC9C;
-}
-
+/*Stella*/
 .star {
     text-align: center;
     max-width: 400px;
     width: 100%;
     margin: 0 auto;
+    font-size: 20px;
 }
 
 .star::before, .star::after{
@@ -62,31 +70,39 @@ header {
     background-color: white;
 }
 
-.star.black::before, .star.black::after {
+.star.dark::before, .star.dark::after {
     background-color: #2C3E50;
 }
 
-/*first-section*/
+/*Header*/
+.bg-dark {
+    background-color: #2C3E50 !important;
+}
 
+.navbar-toggler {
+    padding: 0.15rem 0.30rem !important;
+    font-size: 11px !important;
+    border-color: lightgray !important;
+    border-radius: 3px !important;
+}
+
+/*first-section*/
 #first-section .container .row img {
     width: 160px;
 }
 
 /*second-section*/
-
 #second-section .container .row .col img{
     width: 100%;
 }
 
 /*third-section*/
-
 #third-section .container button {
     border: 1px solid white;
     color: white;
 }
 
 /*fourth-section*/
-
 #fourth-section .container .row .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #2C3E50;
     opacity: 1; /* Firefox */
@@ -94,12 +110,12 @@ header {
 }
 
 #fourth-section .container .row .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: red;
+    color: #2C3E50;
     font-size: 13px;
 }
   
 #fourth-section .container .row .form-control::-ms-input-placeholder { /* Microsoft Edge */
-    color: red;
+    color: #2C3E50;
     font-size: 13px;
 }
 
@@ -110,4 +126,23 @@ header {
 #fourth-section .container .row button {
     background-color: #1ABC9C;
     color: white;
+}
+
+/*Footer*/
+footer .footer-social {
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 36px;
+    height: 35px;
+    position: relative;
+    margin: 0 3px;
+}
+
+footer .footer-social i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
