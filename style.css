@@ -37,16 +37,7 @@
     font-size: 13px;
 }
 
-.font-size-16 {
-    font-size: 16px;
-}
-
-.font-size-24 {
-    font-size: 24px
-}
-
 /*Dimensioni testo variabili*/
-
 .font-size-smaller {
     font-size: 12px;
 }
@@ -116,6 +107,14 @@
     .star::before, .star::after {
         width: 23%;
         margin: 0 1.5%;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .star::before, .star::after {
+        width: 27%;
+        margin: 0 4%;
     }
 }
 
