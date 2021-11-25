@@ -24,7 +24,7 @@
     color: #1ABC9C;
 }
 
-/*Dimensioni testo*/
+/*Dimensioni testo fisse*/
 .font-size-9 {
     font-size: 9px;
 }
@@ -45,6 +45,43 @@
     font-size: 24px
 }
 
+/*Dimensioni testo variabili*/
+
+.font-size-smaller {
+    font-size: 12px;
+}
+
+.font-size-small {
+    font-size: 13px;
+}
+
+.font-size-medium {
+    font-size: 16px;
+}
+
+.font-size-big {
+    font-size: 24px
+}
+
+@media (min-width: 768px) {
+
+    .font-size-smaller {
+        font-size: 16px;
+    }
+    
+    .font-size-small {
+        font-size: 17px;
+    }
+    
+    .font-size-medium {
+        font-size: 34px;
+    }
+    
+    .font-size-big {
+        font-size: 40px
+    }
+}
+
 /*Stella*/
 .star {
     text-align: center;
@@ -54,7 +91,7 @@
     font-size: 20px;
 }
 
-.star::before, .star::after{
+.star::before, .star::after {
     content: "";
     display: inline-block;
     width: 15%;
@@ -72,6 +109,14 @@
 
 .star.dark::before, .star.dark::after {
     background-color: #2C3E50;
+}
+
+@media (min-width: 768px) {
+
+    .star::before, .star::after {
+        width: 23%;
+        margin: 0 1.5%;
+    }
 }
 
 /*Header*/
