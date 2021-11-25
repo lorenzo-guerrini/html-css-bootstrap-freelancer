@@ -119,15 +119,11 @@
 }
 
 /*Header*/
-.bg-dark {
-    background-color: #2C3E50 !important;
-}
-
-.navbar-toggler {
-    padding: 0.15rem 0.30rem !important;
-    font-size: 11px !important;
-    border-color: lightgray !important;
-    border-radius: 3px !important;
+#custom-navbar-toggler {
+    padding: 0.15rem 0.30rem;
+    font-size: 11px;
+    border-color: lightgray;
+    border-radius: 3px;
 }
 
 /*first-section*/
